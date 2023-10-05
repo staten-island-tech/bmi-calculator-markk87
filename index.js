@@ -26,4 +26,4 @@ const userBMI = getBMI(user);
 const tell = tellBMI(userBMI);
 
 
-console.log (`${user.name}'s BMI is' ${userBMI.toFixed(1)} - ${tell}`);
+console.log (`${user.name}'s BMI is ${userBMI.toFixed(1)} - ${tell}`);
