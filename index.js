@@ -1,7 +1,7 @@
 const user = {
-    name: "Josh",
-    heightCM: 152,
-    weightKg: 52.62
+    name: prompt("Enter your name"),
+    heightCM: prompt("Enter your height in CM"),
+    weightKg: prompt("Enter your weight in Kg"),
 };
 
 
